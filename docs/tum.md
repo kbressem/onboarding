@@ -55,7 +55,10 @@ The group has GPU servers (ADAMS1 with H100 GPUs, Ada with a segmentation endpoi
 
 ## Annotations
 
-The medical doctors in the group give time for annotations (now about 300 hours each month). Write your annotation tasks in the Annotations tab of the group spreadsheet. The link is pinned in Slack #general. The medical doctors write their projects and office times in the same spreadsheet.
+The medical doctors (MDs) in the group give time for clinical expertise and annotations. The total is now 300 hours each month. The time for each MD changes with the projects. Use the [group spreadsheet](https://docs.google.com/spreadsheets/d/1u5qNBF6q5MZqZWaTI2Gbz5txh2EhGKpXm2O2GMob4dI/edit) for all annotation tasks.
+
+- If your project must have clinical expertise or annotations, write it in the Annotations tab.
+- If you are an MD, write your projects in the Annotations tab and your office times in the Team tab.
 
 ## Meetings
 
@@ -63,7 +66,7 @@ All group meetings are online in Google Meet, [meet.google.com/hkt-bqxy-rya](htt
 
 | Meeting | Time | Description |
 |---|---|---|
-| Morning sprint | Tuesday and Friday, 09:15 | Short status meeting of the full group, also with short paper presentations. For a presentation, write your name in the group spreadsheet (link in Slack #general). |
+| Morning sprint | Tuesday and Friday, 09:15 | Short status meeting of the full group, also with short paper presentations. For a presentation, write your name, the paper and the date in the presentation sheet of the [group spreadsheet](https://docs.google.com/spreadsheets/d/1u5qNBF6q5MZqZWaTI2Gbz5txh2EhGKpXm2O2GMob4dI/edit). |
 | Thursday meeting | Every second Thursday from 15 October 2026, 17:15 | Meeting of the full group |
 | 1:1 meeting with Keno | Usually in the morning, until 11:30 | Meetings about your work and your projects |
 

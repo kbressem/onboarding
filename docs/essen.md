@@ -68,7 +68,7 @@ All group meetings are online in Google Meet, [meet.google.com/hkt-bqxy-rya](htt
 
 | Meeting | Time | Description |
 |---|---|---|
-| Morning sprint | Tuesday and Friday, 09:15 | Short status meeting of the full group, also with short paper presentations. For a presentation, write your name in the group spreadsheet (link in Slack #general). |
+| Morning sprint | Tuesday and Friday, 09:15 | Short status meeting of the full group, also with short paper presentations. For a presentation, write your name, the paper and the date in the presentation sheet of the [group spreadsheet](https://docs.google.com/spreadsheets/d/1u5qNBF6q5MZqZWaTI2Gbz5txh2EhGKpXm2O2GMob4dI/edit). |
 | Thursday meeting | Every second Thursday from 15 October 2026, 17:15 | Meeting of the full group |
 | 1:1 meeting with Keno | Usually in the morning, until 11:30 | Meetings about your work and your projects |
 
