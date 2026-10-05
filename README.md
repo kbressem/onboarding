@@ -37,14 +37,25 @@ To change the styles, change the values in `build/make_reference_docx.py`. Then 
 
 ## Local preview
 
-You must have [pandoc](https://pandoc.org/installing.html) 3.x and Python 3.10 or newer.
+You must have [pandoc](https://pandoc.org/installing.html) 3.x and Python 3.10 or newer. On a Mac, install pandoc with `brew install pandoc`.
+
+Make a Python environment in the repository one time.
 
 ```
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+```
+
+Then use these commands in the activated environment.
+
+```
 make serve        # Word files and live website at http://127.0.0.1:8000
 make docx         # Word files only, in docs/downloads/
 make lint         # ASD-STE100 check of the English text
 ```
+
+If MkDocs cannot find a plugin or a theme, activate the environment and run `pip install -r requirements.txt` again.
 
 ## Setup on GitHub
 

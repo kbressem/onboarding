@@ -1,3 +1,28 @@
-__MACOSX/._build
-/__MACOSX
-docs/.DS_Store
+# Build output (the GitHub Action makes these files)
+site/
+docs/downloads/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+
+# Files saved from Claude chats
+Claude outputs/
+
+# Lock files of Word and LibreOffice
+~$*
+.~lock.*#
+
+# macOS
+.DS_Store
+__MACOSX/
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp

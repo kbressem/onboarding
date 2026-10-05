@@ -58,3 +58,9 @@
 .md-nav__link .md-ellipsis small {
   display: none;
 }
+
+.md-typeset .page-date {
+  margin-top: 2rem;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}

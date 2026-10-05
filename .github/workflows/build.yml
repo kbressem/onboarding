@@ -1,0 +1,83 @@
+name: Build documents
+
+# Builds the Word files and the website on every push and pull request.
+# The website is deployed to GitHub Pages only when the repository variable
+# PAGES_ENABLED is "true" (see README, Pages are public unless the
+# organisation uses GitHub Enterprise Cloud with private Pages).
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write          # needed only to attach files to a release on tags
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0       # full history for the version dates
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+
+      - name: ASD-STE100 check (information only)
+        run: python build/ste_check.py
+
+      - name: Build Word files
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: python build/build_docx.py
+
+      - name: Build website
+        run: mkdocs build --strict
+
+      - name: Upload Word files
+        uses: actions/upload-artifact@v4
+        with:
+          name: onboarding-docx
+          path: docs/downloads/
+
+      - name: Upload website for Pages
+        if: vars.PAGES_ENABLED == 'true' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site/
+
+      - name: Attach Word files to release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          (cd docs/downloads && zip -r "$GITHUB_WORKSPACE/onboarding-docx.zip" .)
+          gh release create "$GITHUB_REF_NAME" onboarding-docx.zip --generate-notes
+
+  deploy:
+    if: vars.PAGES_ENABLED == 'true' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

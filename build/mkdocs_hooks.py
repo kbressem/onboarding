@@ -5,10 +5,15 @@
    turns the same markers into fillable content controls (build/filters/docx.lua).
 2. Shows the front matter subtitle below the page title.
 3. Adds a "Word version" button to every page that has a DOCX download.
+4. Shows the date of the last change (git commit date, else the build date).
+5. Removes HTML comments (TODO notes) from the published pages.
 """
 
+import datetime as dt
 import html
 import re
+import subprocess
+from pathlib import Path
 
 FIELD = re.compile(r"`field:([a-z]+):?([^`]*)`")
 
@@ -30,7 +35,20 @@ def _field_html(match):
     return match.group(0)
 
 
+def _last_change(path):
+    try:
+        out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", Path(path).name],
+                             cwd=Path(path).parent, capture_output=True, text=True,
+                             check=True).stdout.strip()
+        if out:
+            return out
+    except (subprocess.CalledProcessError, FileNotFoundError, OSError):
+        pass
+    return dt.date.today().isoformat()
+
+
 def on_page_markdown(markdown, page, config, files):
+    markdown = re.sub(r"<!--.*?-->", "", markdown, flags=re.S)   # TODO notes stay in the source
     markdown = FIELD.sub(_field_html, markdown)
     subtitle = page.meta.get("subtitle")
     if subtitle:
@@ -42,4 +60,6 @@ def on_page_markdown(markdown, page, config, files):
         button = (f'[:material-microsoft-word: Word version]({target})'
                   '{ .md-button .docx-button }\n\n')
         markdown = button + markdown
+    if page.file.abs_src_path:
+        markdown += f'\n\n<p class="page-date">Last change {_last_change(page.file.abs_src_path)}</p>\n'
     return markdown
