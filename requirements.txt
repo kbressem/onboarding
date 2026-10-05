@@ -1,0 +1,7 @@
+# Website
+mkdocs>=1.6,<2
+mkdocs-material>=9.5
+mkdocs-git-revision-date-localized-plugin>=1.2
+# Word build (pandoc itself is installed separately, https://pandoc.org/installing.html)
+python-docx>=1.1
+PyYAML>=6.0

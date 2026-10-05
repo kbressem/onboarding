@@ -1,0 +1,60 @@
+:root {
+  --md-primary-fg-color: #00186e;        /* NCT dark blue */
+  --md-primary-fg-color--light: #3273c3;
+  --md-primary-fg-color--dark: #00104a;
+  --md-accent-fg-color: #3273c3;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1d3a8a;
+  --md-accent-fg-color: #84abdb;
+}
+
+.md-typeset .docx-button {
+  font-size: 0.7rem;
+  padding: 0.3em 0.9em;
+  float: right;
+  margin: 0 0 0.8rem 0.8rem;
+}
+
+/* form fields rendered on the website */
+.md-typeset .ff {
+  display: inline-block;
+  min-width: 14em;
+  min-height: 1.4em;
+  padding: 0.1em 0.4em;
+  border-bottom: 1px solid var(--md-default-fg-color--lighter);
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9em;
+}
+.md-typeset .ff-photo {
+  min-height: 6em;
+  min-width: 8em;
+  border: 1px dashed var(--md-default-fg-color--lighter);
+  text-align: center;
+  line-height: 6em;
+}
+.md-typeset .ff-opt {
+  white-space: nowrap;
+  margin-right: 1em;
+}
+
+/* block quotes are used as call-outs */
+.md-typeset blockquote {
+  border-left: 0.2rem solid var(--md-accent-fg-color);
+  background: rgba(50, 115, 195, 0.07);
+  color: var(--md-default-fg-color);
+  padding: 0.4rem 0.8rem;
+}
+
+.md-typeset .page-subtitle {
+  color: var(--md-default-fg-color--light);
+  margin-top: -0.6em;
+}
+
+/* Material shows the front matter subtitle in the navigation. It is shown
+   below the page title instead (build/mkdocs_hooks.py). */
+.md-nav__link .md-ellipsis br,
+.md-nav__link .md-ellipsis small {
+  display: none;
+}

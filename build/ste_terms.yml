@@ -1,0 +1,125 @@
+# Word lists for build/ste_check.py (ASD-STE100, Issue 9).
+#
+# unapproved: words that are not approved (or not approved in the meaning
+#             used here), with the approved alternative. Inflected forms are
+#             listed explicitly.
+# technical_names: words that the checker accepts although they are in
+#             "unapproved", because this repository uses them as technical
+#             names (names of documents, systems or user interface items).
+# ing_allowed: technical names that end in -ing.
+#
+# The full dictionary is free from https://www.asd-ste100.org. Add words here
+# when you find them.
+
+unapproved:
+  need: must, necessary
+  needs: must, necessary
+  needed: must, necessary
+  require: must, necessary
+  requires: must, necessary
+  required: must, necessary
+  provide: give, supply
+  provides: give, supply
+  provided: give, supply
+  check: make sure, examine (the noun CHECK is approved)
+  checks: make sure, examine
+  checked: make sure, examine
+  request: tell, write
+  requests: tell, write
+  requested: tell, write
+  allow: let, permitted
+  allows: let, permitted
+  allowed: let, permitted
+  approve: approval, approved
+  approves: approval, approved
+  discuss: speak about
+  join: add, connect
+  joins: add, connect
+  expire: expired, stops
+  expires: expired, stops
+  appear: show, is
+  appears: show, is
+  submit: send
+  submits: send
+  enter: write, go into
+  enters: write, go into
+  ask: tell, speak to, contact
+  asks: tell, speak to, contact
+  asked: tell, speak to, contact
+  store: keep
+  stores: keep
+  stored: keep
+  create: make
+  creates: make
+  created: make
+  choose: select
+  chooses: select
+  decide: decision, select
+  decides: decision, select
+  should: must, or a sentence with "if"
+  within: in, in ... or less
+  valid: applicable, correct
+  quick: quickly
+  people: persons, personnel
+  approximately: about
+  ensure: make sure
+  verify: make sure, examine
+  e.g.: for example
+  i.e.: that is
+  etc: write all items
+  via: through
+  currently: now
+  normally: usually
+  generally: usually
+  never: do not
+  completely: fully
+  finish: complete
+  begin: start
+  assist: help
+  utilize: use
+  just: immediately, only
+  please: omit it
+  works: operates, or the noun work
+  worked: operated
+  apply for: use the form, get
+  subject: item
+  subjects: items
+  purpose: write why it is necessary
+  reason: cause, because of
+  own: omit it, or your
+
+technical_names:
+  - request            # RadCat request (user interface item)
+  - requests
+  - check point        # Check Point Endpoint VPN (product)
+  - needs information  # RadCat status
+
+ing_allowed:
+  - during
+  - thing
+  - something
+  - nothing
+  - string
+  - meeting
+  - meetings
+  - morning
+  - evening
+  - training
+  - onboarding
+  - recording
+  - building
+  - warning
+  - setting
+  - settings
+  - funding
+  - booking
+  - imaging
+  - matching     # RadCat button "Add all N matching"
+  - processing
+  - ring
+  - e-learning
+  - operating          # operating system
+  - purchasing         # IT purchasing (department)
+  - working            # working days
+  - meaning            # approved meaning (ASD-STE100 term)
+  - heading

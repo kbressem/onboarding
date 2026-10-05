@@ -1,0 +1,75 @@
+site_name: Lab onboarding
+site_description: Onboarding for the Bressem lab in Essen (NCT West, DKFZ) and Munich (TUM)
+# Set to the GitHub Pages address once the repository exists, e.g.
+# https://<org>.github.io/onboarding/  (also used for links inside the Word files)
+# site_url: https://example.github.io/onboarding/
+
+docs_dir: docs
+use_directory_urls: true
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/book-open-page-variant
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+extra_css:
+  - assets/extra.css
+
+hooks:
+  - build/mkdocs_hooks.py
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Essen: essen.md
+  - TUM: tum.md
+  - Reference:
+      - Employers: reference/employers.md
+      - DKFZ business trips: reference/dkfz-travel.md
+      - Essen IT: reference/essen-it.md
+      - RadCat: reference/radcat.md
+      - RadCat administration: reference/radcat-admin.md
+      - TUM compute: reference/tum-compute.md
+  - Forms:
+      - forms/index.md
+      - Personal information: forms/personal-information.md
+      - UME guest account: forms/ume-guest-account.md
