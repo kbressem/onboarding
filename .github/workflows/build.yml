@@ -22,11 +22,11 @@ jobs:
     permissions:
       contents: write          # needed only to attach files to a release on tags
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0       # full history for the version dates
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -49,14 +49,14 @@ jobs:
         run: mkdocs build --strict
 
       - name: Upload Word files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: onboarding-docx
           path: docs/downloads/
 
       - name: Upload website for Pages
         if: vars.PAGES_ENABLED == 'true' && github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: site/
 
@@ -80,4 +80,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

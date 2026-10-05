@@ -22,6 +22,7 @@ from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
 from ooxml_fix import fix_docx
+from pandoc_bin import pandoc_executable
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "templates" / "reference.docx"
@@ -117,7 +118,7 @@ def main():
         default = Path(tmp) / "default.docx"
         with open(default, "wb") as fh:
             subprocess.run(
-                ["pandoc", "--print-default-data-file", "reference.docx"],
+                [pandoc_executable(), "--print-default-data-file", "reference.docx"],
                 stdout=fh, check=True)
         doc = Document(default)
 

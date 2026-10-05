@@ -6,12 +6,15 @@ This file lists the information that the guides do not have yet. When the inform
 
 | # | Missing | Goes to |
 |---|---|---|
-| 1 | Days and times of the morning sprint, calendar series, whether Essen and TUM share it | `essen.md`, `tum.md` |
+| 1 | Name and content of the Thursday meeting, calendar invitation for new members | `essen.md`, `tum.md` |
 | 2 | Roles and email addresses of Lisa Adams and Cosmin Bercea | `tum.md`, `essen.md` |
 | 3 | Recipient of the personal information form, and whether TUM members need it | `forms/personal-information.md` |
 | 4 | Who sends Slack invitations | `essen.md`, `tum.md` |
 | 5 | Affiliation rules for publications per employer and site | new section or reference page |
 | 6 | Code hosting (GitHub organisation, GitLab) and backup rules | new reference page |
+| 6a | Official form for staff ID cards and keys (UME or DKFZ) that replaces the lab form | `forms/personal-information.md` |
+| 6b | Roxtra file IDs come from the IKIM onboarding document. Make sure that they are current (UME network) | `forms/index.md`, `reference/employers.md` |
+| 6c | Direct link to the EGYM Wellpass registration in the DKFZ intranet | `reference/employers.md` |
 
 ## Essen
 

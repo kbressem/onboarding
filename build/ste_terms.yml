@@ -123,3 +123,4 @@ ing_allowed:
   - working            # working days
   - meaning            # approved meaning (ASD-STE100 term)
   - heading
+  - sharing            # bike sharing

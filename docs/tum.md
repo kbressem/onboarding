@@ -47,7 +47,7 @@ RadCat supplies radiology images, reports and clinical (SAP) data. You get acces
 4. After the approval, database queries operate immediately. The files are in `~/radcat-data` after some minutes.
 5. Your access stops automatically at the end date.
 
-For projects with patient data, you must have an approved vote of the TUM ethics committee. Speak to Keno before you write the ethics application. For more scan exports, write a message in #mri-gpu-server. For more information, refer to [RadCat](reference/radcat.md).
+For projects with patient data, you must have an approved vote of the TUM ethics committee. Speak to Keno before you write the ethics application. The official forms are in [Forms](forms/index.md). For more scan exports, write a message in #mri-gpu-server. For more information, refer to [RadCat](reference/radcat.md).
 
 ## Compute
 
@@ -55,17 +55,22 @@ The group has GPU servers (ADAMS1 with H100 GPUs, Ada with a segmentation endpoi
 
 ## Annotations
 
-The medical doctors in the group give time for annotations (now about 300 hours each month). Write your annotation tasks in the Annotations tab of the group spreadsheet. The link is pinned in Slack #general. The medical doctors write their projects and office times in the same spreadsheet.
+The medical doctors (MDs) in the group give time for clinical expertise and annotations. The total is now 300 hours each month. The time for each MD changes with the projects. Use the [group spreadsheet](https://docs.google.com/spreadsheets/d/1u5qNBF6q5MZqZWaTI2Gbz5txh2EhGKpXm2O2GMob4dI/edit) for all annotation tasks.
+
+- If your project must have clinical expertise or annotations, write it in the Annotations tab.
+- If you are an MD, write your projects in the Annotations tab and your office times in the Team tab.
 
 ## Meetings
 
-| Meeting | Description |
-|---|---|
-| Morning sprint | Short status meeting of the full group |
-| Paper presentation | Short presentation of a paper in the sprint. Write your name in the group spreadsheet. |
-| 1:1 meeting with Keno | Meetings about your work and your projects. Usually in the morning, until 11:30. |
+All group meetings are online in Google Meet, [meet.google.com/hkt-bqxy-rya](https://meet.google.com/hkt-bqxy-rya). Keno also uses this room for 1:1 meetings.
 
-<!-- TODO: days and times of the sprint, calendar series, whether Essen and TUM share the sprint. -->
+| Meeting | Time | Description |
+|---|---|---|
+| Morning sprint | Tuesday and Friday, 09:15 | Short status meeting of the full group, also with short paper presentations. For a presentation, write your name, the paper and the date in the presentation sheet of the [group spreadsheet](https://docs.google.com/spreadsheets/d/1u5qNBF6q5MZqZWaTI2Gbz5txh2EhGKpXm2O2GMob4dI/edit). |
+| Thursday meeting | Every second Thursday from 15 October 2026, 17:15 | Meeting of the full group |
+| 1:1 meeting with Keno | Usually in the morning, until 11:30 | Meetings about your work and your projects |
+
+<!-- TODO: name and content of the Thursday meeting, calendar invitation for new members. -->
 
 ## Business trips and purchases
 

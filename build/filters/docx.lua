@@ -18,7 +18,7 @@ Pandoc Lua filter used only for the Word (DOCX) build.
 ]]
 
 local PH_TEXT = "Hier eingeben / Type here"
-local PH_DATE = "Datum wählen / Select a date"
+local PH_DATE = "Datum wählen / Pick a date"
 local PH_CHOICE = "Auswählen / Select"
 local PH_PHOTO = "Foto hier einfügen / Paste photo here"
 

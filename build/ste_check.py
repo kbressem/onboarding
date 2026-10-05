@@ -152,7 +152,6 @@ def units(path):
             flush()
             if re.match(r"^\|[\s:|-]+\|?$", line):
                 continue
-            prev = lines[i - 2].strip() if i >= 2 else ""
             nxt = lines[i].strip() if i < n else ""
             if re.match(r"^\|[\s:|-]+\|?$", nxt):              # header row
                 continue
