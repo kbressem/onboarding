@@ -59,13 +59,15 @@ The medical doctors in the group give time for annotations (now about 300 hours 
 
 ## Meetings
 
-| Meeting | Description |
-|---|---|
-| Morning sprint | Short status meeting of the full group |
-| Paper presentation | Short presentation of a paper in the sprint. Write your name in the group spreadsheet. |
-| 1:1 meeting with Keno | Meetings about your work and your projects. Usually in the morning, until 11:30. |
+All group meetings are online in Google Meet, [meet.google.com/hkt-bqxy-rya](https://meet.google.com/hkt-bqxy-rya). Keno also uses this room for 1:1 meetings.
 
-<!-- TODO: days and times of the sprint, calendar series, whether Essen and TUM share the sprint. -->
+| Meeting | Time | Description |
+|---|---|---|
+| Morning sprint | Tuesday and Friday, 09:15 | Short status meeting of the full group, also with short paper presentations. For a presentation, write your name in the group spreadsheet (link in Slack #general). |
+| Thursday meeting | Every second Thursday from 15 October 2026, 17:15 | Meeting of the full group |
+| 1:1 meeting with Keno | Usually in the morning, until 11:30 | Meetings about your work and your projects |
+
+<!-- TODO: name and content of the Thursday meeting, calendar invitation for new members. -->
 
 ## Business trips and purchases
 

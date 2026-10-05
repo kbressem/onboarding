@@ -15,7 +15,6 @@ The department is part of the DKFZ. Its location is NCT West in Essen, in the In
 | Silvia Fuchs, DKFZ HR | DKFZ contracts, HR onboarding, leave and time recording | silvia.fuchs@dkfz-heidelberg.de |
 | Aljoscha Berve, NCT West site management | Administration. Speak to Keno first. | aljoscha.berve@nct-west.de |
 | ZIT Helpdesk, UME IT | UME accounts, VPN and WLAN | [helpdesk.uk-essen.de](https://helpdesk.uk-essen.de), +49 201 723-4777 |
-| DKFZ user administration | Problems with DKFZ accounts | Benutzerverwaltung@dkfz-heidelberg.de |
 
 <!-- TODO: UME HR contact (Dez. 01.1 Personalbetreuung) for UME contracts. -->
 
@@ -50,18 +49,12 @@ Your contract can be with DKFZ, UME or TUM. The employer can change during your 
 |---|---|---|
 | DKFZ VPN | DKFZ intranet and services | Keno starts the procedure in [IDM](https://idm.dkfz.de/). Use the Cisco client and follow the instructions from DKFZ IT. |
 | UME VPN | UME network from outside the campus | Fill in the form in the [ZIT intranet](http://intraweb.uk-essen.de/zit/index.php?id=52) and add your digital signature. Keno adds his signature. Send the form to benutzerantraege@uk-essen.de. The client is Check Point Endpoint VPN. |
-| UME DMZ access | Clinical applications from outside the campus | Open a ticket in the helpdesk. The access stops after one year. To extend it, open a new ticket. The instructions are in Roxtra, document ID 208360. |
+| UME DMZ access | Clinical applications from outside the campus | Open a helpdesk ticket. The access stops after one year. The instructions are in Roxtra (document 208360). |
 | WPA01 WLAN | UME network on the campus | Only registered UME devices can connect, one device for each account. Do not connect devices that UME did not give to you. |
 | Stiftungs-WiFi | Internet on the campus, for example to configure eduroam on a new device | Connect to the network. A login is not necessary. |
 | eduroam | Internet on the campus | Use the UDE account. |
 
-Obey these rules for remote access to UME data. For more information, refer to [Essen IT](reference/essen-it.md).
-
-- Use only the remote access from ZIT.
-- Do not keep or print UME personal data on local drives or on devices that are not from UME.
-- Set the screen lock to one minute.
-- Do not give your password to other persons.
-- If a security problem occurs, tell ZIT immediately.
+Use only the remote access from ZIT to get access to UME data. Do not keep or print UME personal data on local drives or on devices that are not from UME. For all rules, refer to [Essen IT](reference/essen-it.md).
 
 ## Data access
 
@@ -71,14 +64,16 @@ For UME patient data, you must have an approved ethics application ([Ethikpool E
 
 ## Meetings
 
-| Meeting | Description |
-|---|---|
-| Morning sprint | Short status meeting of the full group |
-| Paper presentation | Short presentation of a paper in the sprint. Write your name in the group spreadsheet. The link is in Slack #general. |
-| 1:1 meeting with Keno | Meetings about your work and your projects. Usually in the morning, until 11:30. |
+All group meetings are online in Google Meet, [meet.google.com/hkt-bqxy-rya](https://meet.google.com/hkt-bqxy-rya). Keno also uses this room for 1:1 meetings.
 
-<!-- TODO: days and times of the sprint, link to the calendar series, whether Essen and TUM share the sprint. -->
+| Meeting | Time | Description |
+|---|---|---|
+| Morning sprint | Tuesday and Friday, 09:15 | Short status meeting of the full group, also with short paper presentations. For a presentation, write your name in the group spreadsheet (link in Slack #general). |
+| Thursday meeting | Every second Thursday from 15 October 2026, 17:15 | Meeting of the full group |
+| 1:1 meeting with Keno | Usually in the morning, until 11:30 | Meetings about your work and your projects |
+
+<!-- TODO: name and content of the Thursday meeting, calendar invitation for new members. -->
 
 ## Business trips and purchases
 
-Before you make a reservation or a purchase, speak to Keno about it and about the funding. Do your first Dienstreiseantrag together with Keno. Keno makes all purchases through the purchase system of the employer (DKFZ e.biss).
+Before you make a reservation or a purchase, speak to Keno about it and about the funding. Do your first Dienstreiseantrag together with Keno.
