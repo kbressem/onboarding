@@ -1,25 +1,27 @@
 ---
 title: "UME-Gastzugang / UME guest account (EXT)"
+docx: false
 ---
 
-Für Mitarbeitende ohne UME-Vertrag, die UME-Systeme nutzen. Keno Bressem beantragt den Zugang als Fürsprecher per ZIT-Ticket. Bitte füllen Sie das Formular aus und senden Sie es per E-Mail an Keno.
+The official form is the CSV file of the ZIT, in the knowledge base of the [ZIT helpdesk](https://helpdesk.uk-essen.de/#knowledge_base/1/locale/de-de/answer/587) (article 587, UME network only). Keno Bressem is the sponsor. He fills in the CSV file and sends it with a ZIT ticket. If the CSV file is not available, the ticket must contain the same information.
 
-Use this form if you do not have a UME contract and you must use UME systems. Keno Bressem is the sponsor and opens a ZIT ticket for the account. Fill in the form and send it to Keno by email.
+Send this information to Keno by email.
 
-| Angabe / Item | Eintrag / Entry |
-|---|---|
-| **Anrede**<br>Salutation | `field:choice:Frau / Ms; Herr / Mr; Divers / Diverse; Keine Angabe / None` |
-| **Vorname**<br>First name | `field:text` |
-| **Nachname**<br>Surname | `field:text` |
-| **Geburtsdatum**<br>Date of birth | `field:date` |
-| **Mobilfunknummer**<br>Mobile phone number | `field:text:Für die Zwei-Faktor-SMS / For the two-factor SMS` |
-| **Alternative E-Mail-Adresse**<br>Alternative email address | `field:text:Zugangsdaten werden hierhin gesendet / ZIT sends the login data here` |
-| **Einsatzbereich**<br>Department | NCT West, Medizinische Datenwissenschaften in der Onkologie (Prof. Bressem) |
-| **Ausgeführte Tätigkeit**<br>Activity | `field:text` |
-| **Fürsprecher**<br>Sponsor | Prof. Dr. med. Keno Bressem |
+| Angabe / Item |
+|---|
+| Anrede / Salutation |
+| Vor- und Zuname / First name and surname |
+| Geburtsdatum / Date of birth |
+| Mobilfunknummer / Mobile phone number (for the two-factor SMS) |
+| Alternative E-Mail-Adresse / Alternative email address (ZIT sends the login data to this address) |
+| Einsatzbereich / Department |
+| Ausgeführte Tätigkeit / Activity |
 
-## Ablauf / Process
+## Procedure
 
-Nach dem Anlegen sendet die ZIT die Zugangsdaten verschlüsselt an die alternative E-Mail-Adresse. Melden Sie sich innerhalb von 14 Tagen einmal in Outlook im Web an und bestätigen Sie dies per E-Mail an das Ticketsystem. Danach wird die Zwei-Faktor-Authentifizierung aktiviert, den Anweisungen per SMS müssen Sie innerhalb von 24 Stunden folgen. Der Zugang läuft nach 12 Monaten ab und muss vom Fürsprecher verlängert werden.
+1. ZIT sends the login data in an encrypted email to the alternative email address.
+2. Log in to [Outlook on the web](https://webcom.ume.de/owa) one time in 14 days or less.
+3. Send an email to the ticket system to tell ZIT about the login.
+4. Wait until ZIT activates the two-factor authentication. Then follow the SMS instructions in 24 hours or less.
 
-ZIT sends the login data in an encrypted email to the alternative email address. Log in to Outlook on the web one time in 14 days or less. Then send an email to the ticket system to tell ZIT about the login. ZIT then activates the two-factor authentication. Follow the SMS instructions in 24 hours or less. The account stops after 12 months. The sponsor can extend it.
+The account stops after 12 months. Keno can extend it. For the limits of EXT accounts, refer to [Essen IT](../reference/essen-it.md).

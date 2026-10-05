@@ -18,7 +18,6 @@ import argparse
 import datetime as dt
 import os
 import re
-import shutil
 import subprocess
 import sys
 import tempfile
@@ -35,6 +34,7 @@ from docx.shared import Cm, Pt
 from docx.text.run import Run
 
 from ooxml_fix import fix_docx
+from pandoc_bin import pandoc_executable
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
@@ -254,7 +254,7 @@ def header_footer(doc, title, version, site_url):
 # --------------------------------------------------------------------------- #
 # main
 # --------------------------------------------------------------------------- #
-def build(src: Path, out_dir: Path, site_url: str | None):
+def build(src: Path, out_dir: Path, site_url: str | None, pandoc: str = "pandoc"):
     meta = front_matter(src)
     if meta.get("docx", True) is False:
         return None
@@ -266,7 +266,7 @@ def build(src: Path, out_dir: Path, site_url: str | None):
 
     with tempfile.TemporaryDirectory() as tmp:
         raw = Path(tmp) / "raw.docx"
-        cmd = ["pandoc", str(src), "-f", "markdown", "-t", "docx",
+        cmd = [pandoc, str(src), "-f", "markdown", "-t", "docx",
                "--reference-doc", str(REFERENCE), "--lua-filter", str(FILTER),
                "-M", f"docpath={rel}", "-o", str(raw)]
         if site_url:
@@ -296,8 +296,7 @@ def main():
     ap.add_argument("--site-url", default=os.environ.get("SITE_URL") or None)
     args = ap.parse_args()
 
-    if shutil.which("pandoc") is None:
-        sys.exit("pandoc not found. Install it from https://pandoc.org/installing.html")
+    pandoc = pandoc_executable()
     if not REFERENCE.exists():
         sys.exit("templates/reference.docx missing. Run build/make_reference_docx.py")
 
@@ -306,7 +305,7 @@ def main():
         p for p in DOCS.rglob("*.md") if out_dir not in p.parents)
     built = 0
     for src in files:
-        dest = build(src, out_dir, args.site_url)
+        dest = build(src, out_dir, args.site_url, pandoc)
         if dest:
             built += 1
             print(f"  {src.relative_to(ROOT)} -> {dest.relative_to(ROOT) if ROOT in dest.parents else dest}")
