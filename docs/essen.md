@@ -22,7 +22,7 @@ The department is part of the DKFZ. Its location is NCT West in Essen, in the In
 
 ## Administration for each employer
 
-Your contract can be with DKFZ, UME or TUM. The employer can change during your time in the group, for example from UME to DKFZ. The procedures for HR, business trips, leave and mandatory training are different for each employer. All persons use the same accounts for the work (UME, Slack, VPN, data). For more information, refer to [Employers](reference/employers.md).
+Your contract can be with DKFZ, UME or TUM, and it can change, for example from UME to DKFZ. The procedures for HR, business trips, leave and training are different for each employer. All persons use the same work accounts. For more information, refer to [Employers](reference/employers.md).
 
 | | DKFZ contract | UME contract |
 |---|---|---|
@@ -37,7 +37,7 @@ Your contract can be with DKFZ, UME or TUM. The employer can change during your 
 2. Activate the account from your employer.
     - If you have a DKFZ contract, follow the ITCF welcome letter. Change the initial password at [dkfz.de/passwd](https://www.dkfz.de/passwd). Then register the two-factor token.
     - If you have a UME contract, UME makes your user ID and your email address (firstname.lastname@uk-essen.de) with the contract.
-3. Without a UME contract, you must have a UME guest account for clinical data and the UME network. Fill in the [UME guest account form](forms/ume-guest-account.md). Keno then tells ZIT to make the account.
+3. Without a UME contract, you must have a UME guest account for clinical data and the UME network. Send Keno the data for the [UME guest account](forms/ume-guest-account.md). Keno sends the official ZIT form.
 4. Tell Keno to add you to the lab Slack (agki.slack.com).
 5. Use the [UDE account form](https://www.uni-due.de/imperia/md/content/zim/services/benutzerverwaltung/antrag_uni_kennung.pdf) to get a UDE account. With this account, you can use Zoom, the university library, eduroam and Microsoft Office.
 6. Get remote access. Refer to the next section.
@@ -47,10 +47,10 @@ Your contract can be with DKFZ, UME or TUM. The employer can change during your 
 
 | Access | Use | Procedure |
 |---|---|---|
-| DKFZ VPN | DKFZ intranet and services | Keno starts the procedure in [IDM](https://idm.dkfz.de/). Use the Cisco client and follow the instructions from DKFZ IT. |
-| UME VPN | UME network from outside the campus | Fill in the form in the [ZIT intranet](http://intraweb.uk-essen.de/zit/index.php?id=52) and add your digital signature. Keno adds his signature. Send the form to benutzerantraege@uk-essen.de. The client is Check Point Endpoint VPN. |
+| DKFZ VPN | DKFZ intranet and services | Keno starts the procedure in [IDM](https://idm.dkfz.de/). Use the Cisco client. |
+| UME VPN | UME network from outside the campus | Fill in the form in the [ZIT intranet](http://intraweb.uk-essen.de/zit/index.php?id=52). Keno adds his signature. Send it to benutzerantraege@uk-essen.de. The client is Check Point Endpoint VPN. |
 | UME DMZ access | Clinical applications from outside the campus | Open a helpdesk ticket. The access stops after one year. The instructions are in Roxtra (document 208360). |
-| WPA01 WLAN | UME network on the campus | Only registered UME devices can connect, one device for each account. Do not connect devices that UME did not give to you. |
+| WPA01 WLAN | UME network on the campus | Only registered UME devices, one device for each account |
 | Stiftungs-WiFi | Internet on the campus, for example to configure eduroam on a new device | Connect to the network. A login is not necessary. |
 | eduroam | Internet on the campus | Use the UDE account. |
 
@@ -74,6 +74,9 @@ All group meetings are online in Google Meet, [meet.google.com/hkt-bqxy-rya](htt
 
 <!-- TODO: name and content of the Thursday meeting, calendar invitation for new members. -->
 
-## Business trips and purchases
+## Business trips, purchases and benefits
 
 Before you make a reservation or a purchase, speak to Keno about it and about the funding. Do your first Dienstreiseantrag together with Keno.
+
+- With a DKFZ contract, you can use EGYM Wellpass (company fitness). Register in the DKFZ intranet.
+- For bike sharing in Essen, use metropolradruhr with the Donkey Republic app (1 EUR for each hour).

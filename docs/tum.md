@@ -47,7 +47,7 @@ RadCat supplies radiology images, reports and clinical (SAP) data. You get acces
 4. After the approval, database queries operate immediately. The files are in `~/radcat-data` after some minutes.
 5. Your access stops automatically at the end date.
 
-For projects with patient data, you must have an approved vote of the TUM ethics committee. Speak to Keno before you write the ethics application. For more scan exports, write a message in #mri-gpu-server. For more information, refer to [RadCat](reference/radcat.md).
+For projects with patient data, you must have an approved vote of the TUM ethics committee. Speak to Keno before you write the ethics application. The official forms are in [Forms](forms/index.md). For more scan exports, write a message in #mri-gpu-server. For more information, refer to [RadCat](reference/radcat.md).
 
 ## Compute
 

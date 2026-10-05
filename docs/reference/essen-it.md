@@ -10,9 +10,9 @@ The Zentrale IT (ZIT) operates the UME IT. For IT problems, open a ticket in the
 | Account | Use | Procedure |
 |---|---|---|
 | UME account | Email (firstname.lastname@uk-essen.de), UME network, clinical systems, Roxtra | UME makes the account with a UME contract. The user ID has the first three letters of your first name and of your surname, for example maxmus. |
-| UME guest account (EXT) | UME systems without a UME contract | Fill in the [guest account form](../forms/ume-guest-account.md). Keno then opens a ZIT ticket. |
-| UDE account | Zoom, university library, eduroam, Microsoft Office | Use the [UDE account form](https://www.uni-due.de/imperia/md/content/zim/services/benutzerverwaltung/antrag_uni_kennung.pdf) of the UDE computer center (ZIM). |
-| UME cloud storage | File synchronization with Seafile ([cloud.uk-essen.de](https://cloud.uk-essen.de/)) | Use the form "Antrag Cloudspeicher" in Roxtra (file 58798). After the first login, change the password. |
+| UME guest account (EXT) | UME systems without a UME contract | Send Keno the data for the [UME guest account](../forms/ume-guest-account.md). Keno sends the official ZIT form (CSV file) with a ticket. |
+| UDE account | Zoom, university library, eduroam, Microsoft Office | Use the [UDE account form](https://www.uni-due.de/imperia/md/content/zim/services/benutzerverwaltung/antrag_uni_kennung.pdf) of the UDE computer center (ZIM). Send it to benutzerverwaltung@uni-due.de. |
+| UME cloud storage | File synchronization with Seafile ([cloud.uk-essen.de](https://cloud.uk-essen.de/)) | Use the form "Antrag Cloudspeicher" in [Roxtra (file 58798)](https://roxtra.uk-essen.de/Roxtra/index.aspx?fileid=58798). After the first login, change the password. |
 | SHIP and FHIR | Clinical research data | Use the [SHIP permission form](https://ship.ume.de/app/permission-request/index) for a project with an approved ethics application. |
 
 ## Guest accounts (EXT)

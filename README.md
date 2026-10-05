@@ -57,6 +57,8 @@ make lint         # ASD-STE100 check of the English text
 
 If MkDocs cannot find a plugin or a theme, activate the environment and run `pip install -r requirements.txt` again.
 
+If the Word build shows "bad CPU type in executable", your pandoc is for a different processor. On a Mac with Apple silicon, remove the Intel pandoc and install the arm64 pandoc (`brew install pandoc`). The build script shows the full procedure. To use a specific pandoc, set the variable `PANDOC`, for example `PANDOC=/opt/homebrew/bin/pandoc make docx`. To see only the website without Word files, use `python3 -m mkdocs serve`.
+
 ## Setup on GitHub
 
 Do these steps one time.
