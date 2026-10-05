@@ -4,7 +4,7 @@
 
 - Write the guides and the reference pages in English. Write the forms in German and English.
 - Write the English text in ASD-STE100 (Simplified Technical English), Issue 9. Use the rules below. Run `make lint` before you commit.
-- Keep the guides `essen.md` and `tum.md` at two Word pages or less. The footer of the Word file shows the page count. Put more information in `docs/reference/` and add a link.
+- Keep the guides `essen.md` and `tum.md` at three Word pages or less, with dense information. The footer of the Word file shows the page count. Put more information in `docs/reference/` and add a link.
 - If you do not have all the information, write an HTML comment, `<!-- TODO: information that is not available -->`. Also add the item to `OPEN_ITEMS.md`. The website and the Word files do not show comments.
 - Do not add passwords, access tokens, patient data or personal data.
 

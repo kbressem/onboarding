@@ -4,7 +4,7 @@ This repository has the onboarding documents for the group of Keno Bressem in Es
 
 | Path | Content |
 |---|---|
-| `docs/essen.md`, `docs/tum.md` | Main guides, two pages or less each |
+| `docs/essen.md`, `docs/tum.md` | Main guides, three pages or less each |
 | `docs/reference/` | More information for the guides (employers, business trips, IT, RadCat, compute) |
 | `docs/forms/` | Forms in German and English, with Word fields |
 | `OPEN_ITEMS.md` | Information that is not available yet |

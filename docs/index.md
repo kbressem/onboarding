@@ -3,7 +3,7 @@ title: Lab onboarding
 docx: false
 ---
 
-This site has the onboarding documents for the group of Keno Bressem in Essen (NCT West, DKFZ) and Munich (TUM Klinikum). Start with the guide for your site. Each guide has two pages or less and has links to more information.
+This site has the onboarding documents for the group of Keno Bressem in Essen (NCT West, DKFZ) and Munich (TUM Klinikum). Start with the guide for your site. Each guide has three pages or less and has links to more information.
 
 | Site | Guide |
 |---|---|
