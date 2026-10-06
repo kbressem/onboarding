@@ -37,7 +37,7 @@ An EXT account has these limits.
 |---|---|---|
 | UME VPN | Fill in the form in the [ZIT intranet](http://intraweb.uk-essen.de/zit/index.php?id=52) and add your digital signature. Keno adds his signature. Send the form to benutzerantraege@uk-essen.de. | The client is Check Point Endpoint VPN. |
 | UME DMZ access | Open a helpdesk ticket. | The DMZ access gives you the "Klinische Applikation". The access stops after one year. To extend it, open a new ticket before this date. To connect to your office computer, send its IP address to dmz.ip@uk-essen.de. The instructions are in Roxtra (document 208360) and in the cloud folder "Lehrvideos". |
-| DKFZ VPN | Keno starts the procedure in [IDM](https://idm.dkfz.de/). | Only for personnel with a DKFZ contract. |
+| DKFZ VPN | Install the Cisco Secure Client. Add a connection with the server address `gate.dkfz-heidelberg.de`. Do not change the other settings. Log in with your DKFZ account and the two-factor token. | Only for personnel with a DKFZ contract. Do this procedure yourself. |
 
 ### Rules for remote access to UME data
 

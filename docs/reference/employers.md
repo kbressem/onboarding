@@ -11,7 +11,7 @@ The administrative procedures are different for each employer. The site of your 
 |---|---|
 | HR | Speak to Silvia Fuchs (silvia.fuchs@dkfz-heidelberg.de) about contracts, HR onboarding, leave, absence and time recording. |
 | Account | Follow the ITCF welcome letter. Change the initial password at [dkfz.de/passwd](https://www.dkfz.de/passwd). Then register the two-factor token. For account problems, send an email to Benutzerverwaltung@dkfz-heidelberg.de. |
-| Remote access | Keno starts the VPN procedure in [IDM](https://idm.dkfz.de/). [Webmail](https://webmail.dkfz.de) from outside the DKFZ uses two-factor authentication. |
+| Remote access | Do the VPN procedure yourself. Install the Cisco Secure Client and add a connection with the server address `gate.dkfz-heidelberg.de`. Log in with your DKFZ account and the two-factor token. [Webmail](https://webmail.dkfz.de) from outside the DKFZ also uses two-factor authentication. |
 | Portals | The [intranet](https://intranet.dkfz.de/) has the forms, the contacts and the current instructions. Use the [Mitarbeiterportal](https://mitarbeiterportal.dkfz-heidelberg.de/) (DKFZ AD login) for business trips and their approval status. |
 | Business trips | Refer to [DKFZ business trips](dkfz-travel.md). |
 | Mandatory training | E-learning courses of DKFZ Advanced Training (M300). Do them each year. Data protection takes about 30 minutes. AI competence takes 45 to 60 minutes. Prevention of corruption is the third course. |
