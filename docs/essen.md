@@ -28,50 +28,27 @@ Your contract can be with DKFZ, UME or TUM, and it can change, for example from 
 | | DKFZ contract | UME contract |
 |---|---|---|
 | HR | Silvia Fuchs | UME Personalbetreuung (Dez. 01.1) |
-| Portal | [Mitarbeiterportal](https://mitarbeiterportal.dkfz-heidelberg.de/), [intranet](https://intranet.dkfz.de/) | [home.ume.de](https://home.ume.de), Roxtra (forms) |
+| Portal | [Mitarbeiterportal](https://mitarbeiterportal.dkfz-heidelberg.de/) (update your address and bank details), [intranet](https://intranet.dkfz.de/) | [home.ume.de](https://home.ume.de), Roxtra (forms) |
 | Business trip | Dienstreiseantrag in the Mitarbeiterportal. Refer to [DKFZ business trips](reference/dkfz-travel.md). | SAP Concur |
-| Mandatory training | DKFZ e-learning (data protection, prevention of corruption, AI competence) | UME Pflichtschulungen in the [Bildungsakademie LMS](https://bildungsakademie-online.ume.de/) |
+| Mandatory training | [DKFZ e-learning](https://pseminar.inet.dkfz-heidelberg.de/) (data protection, prevention of corruption, AI competence) | UME Pflichtschulungen in the [Bildungsakademie LMS](https://bildungsakademie-online.ume.de/) |
 
 ## First weeks
 
 1. Send the [personal information form](forms/personal-information.md) with a photo to Keno. The form is necessary for your staff ID card and your keys.
 2. Activate the account from your employer.
-    - If you have a DKFZ contract, follow the ITCF welcome letter. Change the initial password at [dkfz.de/passwd](https://www.dkfz.de/passwd). Then register the two-factor token.
+    - If you have a DKFZ contract, follow the ITCF welcome letter. Change the initial password at [dkfz.de/passwd](https://www.dkfz.de/passwd). Then register the two-factor token ([instructions, PDF](https://www.dkfz.de/fileadmin/user_upload/Abteilungen/W310/Downloads/Setup_TOTP_en.pdf)).
+
+        > **Note:** You can use the registration code only once. Use it only to set up two-factor authentication. Otherwise, you must contact IT for a new token. After setup, use the codes from your authenticator app for DKFZ services.
+
     - If you have a UME contract, UME makes your user ID and your email address (firstname.lastname@uk-essen.de) with the contract.
 3. Without a UME contract, you must have a UME guest account for clinical data and the UME network. Send Keno the data for the [UME guest account](forms/ume-guest-account.md). Keno sends the official ZIT form.
 4. Tell Keno to add you to the lab Slack (agki.slack.com).
-5. Use the [UDE account form](https://www.uni-due.de/imperia/md/content/zim/services/benutzerverwaltung/antrag_uni_kennung.pdf) to get a UDE account. With this account, you can use Zoom, the university library, eduroam and Microsoft Office.
-6. Get remote access. Refer to the next section.
-7. Complete the mandatory training of your employer.
+5. Use the [UDE account form](https://www.uni-due.de/imperia/md/content/zim/services/benutzerverwaltung/antrag_uni_kennung.pdf) to get a UDE account. Email the completed form to benutzerverwaltung@uni-due.de (cc Keno) for account creation. With this account, you can use Zoom, the university library, eduroam and Microsoft Office.
+6. Get remote access. Refer to [Remote access and network](#remote-access-and-network).
+7. Get compute access. Refer to [Compute access](#compute-access).
+8. Complete the mandatory training of your employer.
 
-## City registration
-
-Register with the city of Essen (Anmeldung) as soon as possible. You must have an appointment for the registration. To get an appointment, do one of these:
-
-- Call the office at +49 201 8838883. This is the best option.
-- Use the [appointment website](https://termine.essen.de/?link=4ce9). Usually, the website has no available appointments.
-
-On Monday at 08:00, new appointments can become available on the website. If other persons cancel their appointments, you can also call the office at about the same time to get one.
-
-## Bank account
-
-Before the city registration, it is difficult to open a bank account. Only some online banks are available. Revolut does not let you open an account without the registration.
-
-We recommend [Wise](https://wise.com/register), because Wise does not immediately make a tax identification number necessary. To open a Wise account, you must have:
-
-- Your passport
-- Your visa
-- Evidence of your current residence
-
-After three months, you must give Wise your tax identification number. If you do not, Wise restricts access to your account.
-
-## Phone number
-
-Before the city registration, it is difficult to get a phone contract. You can get a prepaid plan. For example, you can get a Vodafone prepaid plan fully online, with an eSIM or a physical SIM card:
-
-1. On the Vodafone website, select a [prepaid plan](https://www.vodafone.de/privat/handys-tablets-tarife/prepaid-ohne-vertrag.html). Give all the necessary data. Select a plan during the sign-up.
-2. Prove your identity. Use the [POSTIDENT](https://www.deutschepost.de/de/p/postident.html) app or go to a Deutsche Post office.
-3. After the verification, Vodafone sends the SIM card by post. If you selected an eSIM, Vodafone sends it by email.
+For city registration, a bank account, a phone number and transport, refer to [Living in Germany](living-in-germany.md).
 
 ## Remote access and network
 
@@ -82,7 +59,7 @@ Before the city registration, it is difficult to get a phone contract. You can g
 | UME DMZ access | Clinical applications from outside the campus | Open a helpdesk ticket. The access stops after one year. To extend it, open a new ticket. The instructions are in Roxtra (document 208360). |
 | WPA01 WLAN | UME network on the campus | Only registered UME devices can connect, one device for each account. Do not connect devices that UME did not give to you. |
 | Stiftungs-WiFi | Internet on the campus, for example to configure eduroam on a new device | Connect to the network. A login is not necessary. |
-| eduroam | Internet on the campus | Use the UDE account. |
+| eduroam | Internet on the campus | Use your UDE or DKFZ account ([DKFZ instructions](https://www.dkfz.de/en/information-technology#c9930)). |
 
 Obey these rules for remote access to UME data. For more information, refer to [Essen IT](reference/essen-it.md).
 
@@ -92,11 +69,15 @@ Obey these rules for remote access to UME data. For more information, refer to [
 - Do not give your password to other persons.
 - If a security problem occurs, tell ZIT immediately.
 
+## Compute access
+
+For DKFZ cluster access, email cluster-support@dkfz-heidelberg.de with your DKFZ username. Ask for GPU access, as the default is CPU access only. In the same email, ask them to make a folder for you in the OE0709 group folders. Default GPU access includes only low-end GPUs. [Cluster wiki](https://wiki.odcf.dkfz.de/pub/cluster/start).
+
+<!-- TODO: compute resources in Essen (IKIM cluster, DGX B300), storage, code hosting. -->
+
 ## Data access
 
 For UME patient data, you must have an approved ethics application ([Ethikpool Essen](https://www.ethikpool-essen.de/info)) and a clinical partner. The clinical partner is from the department that made the data. When you have the approval, use the [SHIP permission form](https://ship.ume.de/app/permission-request/index) to get SHIP/FHIR access for the project. Contracts and data transfer agreements must have the signature of the UME legal office (Stabsstelle Recht). Speak to Keno about each new project before you start it.
-
-<!-- TODO: compute resources in Essen (IKIM cluster, DGX B300), storage, code hosting. -->
 
 ## Meetings
 
@@ -104,7 +85,7 @@ All group meetings are online in Google Meet, [meet.google.com/hkt-bqxy-rya](htt
 
 | Meeting | Time | Description |
 |---|---|---|
-| Morning sprint | Tuesday and Friday, 09:15 | Short status meeting of the full group, also with short paper presentations. For a presentation, write your name, the paper and the date in the presentation sheet of the [group spreadsheet](https://docs.google.com/spreadsheets/d/1u5qNBF6q5MZqZWaTI2Gbz5txh2EhGKpXm2O2GMob4dI/edit). |
+| Morning sprint | Tuesday to Friday, 09:15 | Short group status meeting (typically Wednesday and Friday) and short paper presentations (typically Tuesday and Thursday). For a presentation, write your name, the paper and the date in the presentation sheet of the [group spreadsheet](https://docs.google.com/spreadsheets/d/1u5qNBF6q5MZqZWaTI2Gbz5txh2EhGKpXm2O2GMob4dI/edit). |
 | Thursday meeting | Every second Thursday from 15 October 2026, 17:15 | Meeting of the full group |
 | 1:1 meeting with Keno | Usually in the morning, until 11:30 | Meetings about your work and your projects |
 
@@ -115,4 +96,5 @@ All group meetings are online in Google Meet, [meet.google.com/hkt-bqxy-rya](htt
 Before you make a reservation or a purchase, speak to Keno about it and about the funding. Do your first Dienstreiseantrag together with Keno. Keno makes all purchases through the purchase system of the employer (DKFZ e.biss).
 
 - With a DKFZ contract, you can use EGYM Wellpass (company fitness). Register in the DKFZ intranet.
+- With a DKFZ contract, you can get a subsidised [public transport ticket](living-in-germany.md#public-transport-ticket).
 - For bike sharing in Essen, use metropolradruhr with the Donkey Republic app (1 EUR for each hour).
