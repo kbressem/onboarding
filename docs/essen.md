@@ -54,7 +54,7 @@ For city registration, a bank account, a phone number and transport, refer to [L
 
 | Access | Use | Procedure |
 |---|---|---|
-| DKFZ VPN | DKFZ intranet and services | Do this procedure yourself. Install the Cisco Secure Client. Add a connection with the server address `gate.dkfz-heidelberg.de`. Do not change the other settings. Log in with your DKFZ account and the two-factor token. |
+| DKFZ VPN | DKFZ intranet and services | Do this procedure yourself. With the help of a colleague (Login to:https://idm.dkfz.de/) and Request VPN access. Install the Cisco Secure Client. Add a connection with the server address `gate.dkfz-heidelberg.de`. Do not change the other settings. Log in with your DKFZ account and the two-factor token. |
 | UME VPN | UME network from outside the campus | Fill in the form in the [ZIT intranet](http://intraweb.uk-essen.de/zit/index.php?id=52) and add your digital signature. Keno adds his signature. Send it to benutzerantraege@uk-essen.de. The client is Check Point Endpoint Security VPN. To connect, refer to [Essen IT](reference/essen-it.md#connect-to-the-ume-vpn-on-macos). |
 | UME DMZ access | Clinical applications from outside the campus | Open a helpdesk ticket. The access stops after one year. To extend it, open a new ticket. The instructions are in Roxtra (document 208360). |
 | WPA01 WLAN | UME network on the campus | Only registered UME devices can connect, one device for each account. Do not connect devices that UME did not give to you. |
